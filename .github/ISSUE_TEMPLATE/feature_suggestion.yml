@@ -18,3 +18,13 @@ body:
         Dein Vorschlag
     validations:
       required: true
+
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Wie relevant ist das?
+      options:
+        - 🔵 Gering (kann warten)
+        - 🟡 Mittel (sollte es schon geben)
+        - 🔴 Hoch (wird auf jeden fall gebraucht)
