@@ -1,0 +1,20 @@
+name: ✨ Feature-Vorschlag
+description: Schlag uns ein neues Feature vor! 🚀
+title: "[Feature] "
+labels: [Feature]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du ein neues Feature vorschlagen möchtest! 🚀
+        Bitte fülle die folgenden Felder aus, damit wir dein Anliegen besser verstehen können.
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Dein Vorschlag
+      description: Was möchtest du hinzufügen oder ändern? Bitte beschreibe dein Feature so detailliert wie möglich.
+      placeholder: |
+        Dein Vorschlag
+    validations:
+      required: true
